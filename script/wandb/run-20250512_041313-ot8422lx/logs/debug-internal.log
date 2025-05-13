@@ -1,0 +1,7 @@
+{"time":"2025-05-12T04:13:13.836279856Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/home/canhdx/workspace/TSAN-brain-age-estimation/script/wandb/run-20250512_041313-ot8422lx/logs/debug-core.log"}
+{"time":"2025-05-12T04:13:14.387205727Z","level":"INFO","msg":"created new stream","id":"ot8422lx"}
+{"time":"2025-05-12T04:13:14.388588166Z","level":"INFO","msg":"stream: started","id":"ot8422lx"}
+{"time":"2025-05-12T04:13:14.388673238Z","level":"INFO","msg":"writer: Do: started","stream_id":"ot8422lx"}
+{"time":"2025-05-12T04:13:14.388688975Z","level":"INFO","msg":"handler: started","stream_id":"ot8422lx"}
+{"time":"2025-05-12T04:13:14.388698373Z","level":"INFO","msg":"sender: started","stream_id":"ot8422lx"}
+{"time":"2025-05-12T04:13:14.78230392Z","level":"INFO","msg":"Starting system monitor"}

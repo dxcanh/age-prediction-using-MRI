@@ -1,0 +1,119 @@
+{
+  "os": "Linux-5.15.0-136-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.20",
+  "startedAt": "2025-05-12T04:13:13.831924Z",
+  "args": [
+    "--batch_size",
+    "16",
+    "--epochs",
+    "150",
+    "--lr",
+    "1e-5",
+    "--weight_decay",
+    "5e-4",
+    "--loss",
+    "mse",
+    "--aux_loss",
+    "ranking",
+    "--lbd",
+    "10",
+    "--beta",
+    "1",
+    "--first_stage_net",
+    "/home/canhdx/workspace/TSAN-brain-age-estimation/pretrained_model/ScaleDenseScaleDense_best_model.pth.tar",
+    "--train_folder",
+    "/home/canhdx/workspace/TSAN-brain-age-estimation/data/train",
+    "--valid_folder",
+    "/home/canhdx/workspace/TSAN-brain-age-estimation/data/val",
+    "--test_folder",
+    "/home/canhdx/workspace/TSAN-brain-age-estimation/data/test",
+    "--excel_path",
+    "/home/canhdx/workspace/TSAN-brain-age-estimation/label.xlsx",
+    "--model",
+    "ScaleDense",
+    "--output_dir",
+    "/home/canhdx/workspace/TSAN-brain-age-estimation/pretrained_model/second_stage_test/",
+    "--dis_range",
+    "5",
+    "--sorter",
+    "/home/canhdx/workspace/TSAN-brain-age-estimation/TSAN/Sodeep_pretrain_weight/Tied_rank_best_lstmla_slen_16.pth.tar"
+  ],
+  "program": "/home/canhdx/workspace/TSAN-brain-age-estimation/TSAN/train_second_stage.py",
+  "codePath": "TSAN/train_second_stage.py",
+  "git": {
+    "remote": "https://github.com/Milan-BUAA/TSAN-brain-age-estimation.git",
+    "commit": "ea39e0dc0f89e151bb32e37230f2b8deb1a2a782"
+  },
+  "email": "letanh2208@gmail.com",
+  "root": "/home/canhdx/workspace/TSAN-brain-age-estimation/script",
+  "host": "optix",
+  "executable": "/home/canhdx/miniconda3/envs/signspeak/bin/python",
+  "cpu_count": 24,
+  "cpu_count_logical": 48,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "234039422976",
+      "used": "122141523968"
+    }
+  },
+  "memory": {
+    "total": "202438000640"
+  },
+  "cpu": {
+    "count": 24,
+    "countLogical": 48
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25757220864",
+      "cudaCores": 8192,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

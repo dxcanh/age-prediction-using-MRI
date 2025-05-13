@@ -1,0 +1,23 @@
+2025-05-12 04:04:56,810 INFO    MainThread:3855615 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_setup.py:_flush():70] Configure stats pid to 3855615
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_setup.py:_flush():70] Loading settings from /home/canhdx/.config/wandb/settings
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_setup.py:_flush():70] Loading settings from /home/canhdx/workspace/TSAN-brain-age-estimation/script/wandb/settings
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/canhdx/workspace/TSAN-brain-age-estimation/script/wandb/run-20250512_040456-o0df6tvp/logs/debug.log
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/canhdx/workspace/TSAN-brain-age-estimation/script/wandb/run-20250512_040456-o0df6tvp/logs/debug-internal.log
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_init.py:init():852] calling init triggers
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'model_name': 'best_model.pth.tar', 'output_dir': '/home/canhdx/workspace/TSAN-brain-age-estimation/pretrained_model/ScaleDense', 'train_folder': '/home/canhdx/workspace/TSAN-brain-age-estimation/data/train', 'valid_folder': '/home/canhdx/workspace/TSAN-brain-age-estimation/data/val', 'test_folder': '/home/canhdx/workspace/TSAN-brain-age-estimation/data/test', 'excel_path': '/home/canhdx/workspace/TSAN-brain-age-estimation/label.xlsx', 'first_stage_net': './model/best.pth.tar', 'npz_name': 'test.npz', 'plot_name': 'test.png', 'model': 'ScaleDense', 'num_workers': 8, 'batch_size': 16, 'epochs': 150, 'lr': 0.001, 'schedular': 'cosine', 'print_freq': 40, 'weight_decay': 0.0005, 'use_gender': True, 'dis_range': 5, 'warmup_lr_init': 5e-07, 'warmup_epoch': 0, 'min_lr': 5e-06, 'loss': 'mse', 'aux_loss': 'ranking', 'lbd': 10.0, 'beta': 1.0, 'sorter': '/home/canhdx/workspace/TSAN-brain-age-estimation/TSAN/Sodeep_pretrain_weight/Tied_rank_best_lstmla_slen_16.pth.tar', '_wandb': {}}
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_init.py:init():893] starting backend
+2025-05-12 04:04:56,811 INFO    MainThread:3855615 [wandb_init.py:init():897] sending inform_init request
+2025-05-12 04:04:56,858 INFO    MainThread:3855615 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-12 04:04:56,858 INFO    MainThread:3855615 [wandb_init.py:init():907] backend started and connected
+2025-05-12 04:04:56,864 INFO    MainThread:3855615 [wandb_init.py:init():1005] updated telemetry
+2025-05-12 04:04:56,895 INFO    MainThread:3855615 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-12 04:04:57,830 INFO    MainThread:3855615 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-12 04:04:58,021 INFO    MainThread:3855615 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-12 04:04:58,023 INFO    MainThread:3855615 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-12 04:04:58,024 INFO    MainThread:3855615 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-12 04:04:58,024 INFO    MainThread:3855615 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-12 04:04:58,314 INFO    MainThread:3855615 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-12 08:22:45,580 INFO    MsgRouterThr:3855615 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
