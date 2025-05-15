@@ -1,2 +1,7 @@
-data/
-prepcrocess_data/
+flower/
+not_skull_stripped/
+skull_stripped/
+server_data/
+data_per_client/
+preprocessed_data/
+

@@ -1,0 +1,7 @@
+flask
+numpy
+requests
+scipy
+torch     
+pandas    
+openpyxl 
