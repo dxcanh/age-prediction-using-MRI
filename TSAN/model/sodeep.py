@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import scipy.stats.stats as stats
+import scipy as stats
 import numpy as np
 
 def get_rank(batch_score, dim=0):
